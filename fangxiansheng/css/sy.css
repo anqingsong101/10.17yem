@@ -1,0 +1,374 @@
+.sy-head {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background: url("../img-sy/logo.png") no-repeat 0.18rem center;
+  background-size: 2.2rem 0.75rem; }
+  .sy-head div {
+    width: 1.45rem;
+    height: 0.75rem;
+    display: flex;
+    font-size: 0.22rem;
+    color: #999;
+    align-items: center; }
+    .sy-head div dt {
+      width: 0.45rem;
+      height: 0.45rem;
+      display: flex;
+      align-items: center; }
+  .sy-head .sy-head-dl-1 {
+    margin-right: 0.35rem; }
+    .sy-head .sy-head-dl-1 img {
+      width: 0.45rem;
+      height: 0.45rem; }
+  .sy-head .sy-head-dl-2 img {
+    width: 0.33rem;
+    height: 0.33rem; }
+
+.sy-img-1 {
+  width: 100%;
+  height: 2.4rem; }
+  .sy-img-1 img {
+    width: 100%;
+    height: 100%; }
+  .sy-img-1 .swiper-pagination-bullet {
+    width: 0.12rem;
+    height: 0.12rem; }
+  .sy-img-1 .swiper-pagination,
+  .sy-img-1 .swiper-pagination-bullets {
+    bottom: -.02rem;
+    left: -.05rem; }
+  .sy-img-1 .swiper-pagination-bullet {
+    margin: 0 0.12rem !important; }
+
+.sy-dl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 0.18rem solid #f4f4f4; }
+  .sy-dl dl {
+    width: 1.2rem;
+    height: 1.65rem;
+    font-size: 0.27rem;
+    text-align: center; }
+    .sy-dl dl dt {
+      margin-bottom: 0.2rem; }
+    .sy-dl dl img {
+      width: 1.2rem;
+      height: 1.2rem; }
+  .sy-dl .sy-dl-a {
+    width: 6.85rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.36rem; }
+  .sy-dl .sy-dl-b {
+    width: 6.85rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.52rem;
+    margin-bottom: 0.4rem; }
+
+.sy-p {
+  width: 7.15rem;
+  height: 0.42rem;
+  border-left: 0.05rem solid #37c993;
+  margin: 0.32rem auto;
+  font-size: 0.21rem;
+  color: gray; }
+  .sy-p span {
+    font-size: 0.37rem;
+    color: black;
+    margin: 0 0.18rem; }
+
+.sy-img-2 {
+  width: 7.15rem;
+  height: 4.35rem;
+  margin: 0 auto; }
+  .sy-img-2 .lb {
+    width: 100%;
+    height: 100%; }
+  .sy-img-2 .swiper-wrapper {
+    width: 100% !important;
+    height: 4rem; }
+  .sy-img-2 .swiper-slide {
+    width: 100% !important;
+    height: 4rem; }
+  .sy-img-2 img {
+    width: 100%;
+    height: 100%; }
+  .sy-img-2 .swiper-pagination-bullet {
+    width: 0.12rem;
+    height: 0.12rem; }
+  .sy-img-2 .swiper-pagination-bullet {
+    margin: 0 0.12rem !important; }
+  .sy-img-2 .swiper-pagination,
+  .sy-img-2 .swiper-pagination-bullets {
+    bottom: 0;
+    left: -.05rem; }
+
+.sy-tuw {
+  width: 7.15rem;
+  height: 0.4rem;
+  margin: 0 auto;
+  line-height: 0.4rem;
+  font-size: 0;
+  margin-bottom: 0.36rem;
+  margin-top: 0.2rem; }
+  .sy-tuw span {
+    font-size: 0.25rem;
+    color: #000;
+    margin-right: 0.4rem; }
+    .sy-tuw span img {
+      width: 0.36rem;
+      height: 0.36rem;
+      vertical-align: middle;
+      margin-right: 0.1rem; }
+  .sy-tuw span:nth-child(3) {
+    margin: 0; }
+
+.sy-hr {
+  width: 100%;
+  height: 0.18rem;
+  background: #f4f4f4; }
+
+.sy-inp {
+  width: 5.86rem;
+  height: 3.6rem;
+  margin: 0.36rem auto;
+  font-size: 0; }
+  .sy-inp p {
+    width: 100%;
+    height: 0.7rem;
+    margin-bottom: 0.25rem !important; }
+  .sy-inp input {
+    width: 5.76rem;
+    height: 100%;
+    padding-left: 0.1rem;
+    border: 0.01rem solid #eaeaea;
+    border-radius: 0.05rem;
+    font-size: 0.28rem;
+    margin: 0; }
+  .sy-inp button {
+    width: 100%;
+    height: 0.7rem;
+    border-radius: 0.05rem;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.7rem;
+    background: #feb605;
+    color: white;
+    border: 0; }
+
+.sy-s1 {
+  width: 7.25rem;
+  height: 2.45rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+  .sy-s1 .sy-s1-a {
+    width: 1.45rem;
+    height: 100%;
+    text-align: center;
+    font-size: 0.36rem; }
+    .sy-s1 .sy-s1-a dl {
+      width: 100%;
+      height: 2.1rem;
+      text-align: center; }
+    .sy-s1 .sy-s1-a img {
+      width: 1.4rem;
+      height: 1.4rem;
+      margin-bottom: 0.22rem;
+      font-size: 0; }
+    .sy-s1 .sy-s1-a p {
+      width: 1.2rem;
+      height: 0.32rem;
+      font-size: 0.24rem;
+      background: #39c893;
+      color: white;
+      text-align: center;
+      line-height: 0.32rem;
+      margin: 0 auto;
+      border-radius: 0.05rem; }
+
+.sy-li {
+  width: 7.05rem;
+  height: 0.67rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.28rem;
+  color: #39c893;
+  margin: 0.36rem auto; }
+  .sy-li li {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 0.01rem solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sy-li li img {
+      width: 0.28rem;
+      height: 0.28rem;
+      vertical-align: middle; }
+
+.sy-s2 {
+  width: 7.16rem;
+  height: 10.15rem;
+  margin: 0 auto; }
+  .sy-s2 .sy-s2-a {
+    width: 100%;
+    height: 5.06rem;
+    position: relative; }
+    .sy-s2 .sy-s2-a img {
+      width: 100%;
+      height: 100%; }
+    .sy-s2 .sy-s2-a .sy-s2-zi {
+      width: 0.7rem;
+      height: 0.42rem;
+      background: #000;
+      opacity: 0.5;
+      color: white;
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 0.42rem;
+      position: absolute;
+      bottom: 0.1rem;
+      right: 0.15rem; }
+  .sy-s2 .sy-s2-b {
+    width: 100%;
+    height: 5.07rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.08rem; }
+    .sy-s2 .sy-s2-b .sy-sw-b1 {
+      width: 3.54rem;
+      height: 2.5rem;
+      position: relative; }
+      .sy-s2 .sy-s2-b .sy-sw-b1 img {
+        width: 100%;
+        height: 100%; }
+      .sy-s2 .sy-s2-b .sy-sw-b1 .sy-s2-zi {
+        width: 0.7rem;
+        height: 0.42rem;
+        background: #000;
+        opacity: 0.5;
+        color: white;
+        font-size: 0.25rem;
+        text-align: center;
+        line-height: 0.42rem;
+        position: absolute;
+        bottom: 0.1rem;
+        right: 0.15rem; }
+
+.sy-s3 {
+  width: 7.16rem;
+  height: 6rem;
+  margin: 0 auto; }
+  .sy-s3 dl {
+    width: 100%;
+    height: 100%; }
+    .sy-s3 dl img {
+      width: 100%;
+      height: 5.34rem; }
+    .sy-s3 dl dd {
+      font-size: 0.28rem;
+      margin-top: 0.25rem; }
+      .sy-s3 dl dd span {
+        color: white;
+        background: #3ac994;
+        border-radius: 0.05rem; }
+
+.sy-s4-1 {
+  width: 7.1rem;
+  height: 1.75rem;
+  margin: 0 auto 0.32rem;
+  display: flex;
+  border-bottom: 0.01rem solid gray; }
+  .sy-s4-1 > img {
+    width: 1.9rem;
+    height: 1.45rem;
+    margin-right: 0.22rem; }
+  .sy-s4-1 dl {
+    width: 4.9rem;
+    height: 1.45rem;
+    position: relative; }
+    .sy-s4-1 dl dt {
+      font-size: 0.36rem;
+      line-height: 0.5rem; }
+    .sy-s4-1 dl dd {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+      .sy-s4-1 dl dd span {
+        font-size: 0.28rem;
+        color: #999; }
+        .sy-s4-1 dl dd span img {
+          width: 0.28rem;
+          height: 0.28rem; }
+      .sy-s4-1 dl dd span:nth-child(1) {
+        margin-right: 0.75rem; }
+
+.sy-s5 {
+  width: 7rem;
+  height: 1.75rem;
+  margin: 0.36rem auto;
+  font-size: 0.28rem;
+  color: #333;
+  line-height: 0.45rem;
+  text-indent: 0.5rem; }
+
+.sy-gangG {
+  width: 100%;
+  height: 1.85rem; }
+  .sy-gangG img {
+    width: 100%;
+    height: 100%; }
+
+.sy-dw {
+  width: 0.94rem;
+  height: 0.94rem;
+  position: fixed;
+  right: 0.25rem;
+  bottom: 2.5rem; }
+  .sy-dw img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem; }
+
+.sy-s6 {
+  width: 100%;
+  height: 1.3rem; }
+  .sy-s6 .sy-s6-a {
+    text-align: center;
+    width: 100%;
+    height: 0.32rem;
+    font-size: .28px;
+    color: #333;
+    line-height: .32rem;
+    margin: 0.3rem 0; }
+    .sy-s6 .sy-s6-a img {
+      width: 0.32rem;
+      height: 0.32rem;
+      vertical-align: middle; }
+  .sy-s6 .sy-s6-b {
+    width: 100%;
+    height: 0.3rem;
+    font-size: .28rem;
+    display: flex;
+    justify-content: space-between; }
+    .sy-s6 .sy-s6-b li {
+      width: 25%;
+      height: 100%;
+      text-align: center; }
+      .sy-s6 .sy-s6-b li a {
+        font-size: .28rem; }
+
+/*# sourceMappingURL=sy.css.map */

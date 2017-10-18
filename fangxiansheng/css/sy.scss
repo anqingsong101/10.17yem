@@ -1,0 +1,383 @@
+@charset "utf-8";
+@mixin aa($a, $b) {
+    width: $a;
+    height: $b;
+}
+.sy-head {
+    @include aa(100%,1rem);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: url("../img-sy/logo.png") no-repeat 0.18rem center;
+    background-size: 2.2rem 0.75rem;
+    div {
+        @include aa(1.45rem,.75rem);
+        display: flex;
+        font-size: 0.22rem;
+        color: #999;
+        align-items: center;
+        dt {
+            @include aa(.45rem,.45rem);
+            display: flex;
+            align-items: center;
+        }
+    }
+    .sy-head-dl-1 {
+        margin-right: 0.35rem;
+        img {
+            @include aa(.45rem,.45rem)
+        }
+    }
+    .sy-head-dl-2 {
+        img {
+            @include aa(.33rem,.33rem)
+        }
+    }
+}
+.sy-img-1 {
+    @include aa(100%,2.4rem);
+    img {
+        @include aa(100%,100%)
+    }
+    .swiper-pagination-bullet {
+        @include aa(.12rem,.12rem);
+    }
+    .swiper-pagination,
+    .swiper-pagination-bullets {
+        bottom: -.02rem;
+        left: -.05rem;
+    }
+    .swiper-pagination-bullet {
+        margin: 0 0.12rem !important;
+    }
+}
+.sy-dl {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 0.18rem solid #f4f4f4;
+    dl {
+        @include aa(1.2rem,1.65rem);
+        font-size: 0.27rem;
+        text-align: center;
+        dt {
+            margin-bottom: 0.2rem;
+        }
+        img {
+            @include aa(1.2rem,1.2rem)
+        }
+    }
+    .sy-dl-a {
+        @include aa(6.85rem,1.7rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.36rem;
+    }
+    .sy-dl-b {
+        @include aa(6.85rem,1.7rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.52rem;
+        margin-bottom: 0.4rem;
+    }
+}
+.sy-p {
+    @include aa(7.15rem,.42rem);
+    border-left: 0.05rem solid #37c993;
+    margin: 0.32rem auto;
+    font-size: 0.21rem;
+    color: gray;
+    span {
+        font-size: 0.37rem;
+        color: black;
+        margin: 0 0.18rem;
+    }
+}
+.sy-img-2 {
+    @include aa(7.15rem,4.35rem);
+    margin: 0 auto;
+    .lb {
+        @include aa(100%,100%)
+    }
+    .swiper-wrapper {
+        width: 100% !important;
+        height: 4rem;
+    }
+    .swiper-slide {
+        width: 100% !important;
+        height: 4rem;
+    }
+    img {
+        @include aa(100%,100%)
+    }
+    .swiper-pagination-bullet {
+        @include aa(.12rem,.12rem);
+    }
+    .swiper-pagination-bullet {
+        margin: 0 0.12rem !important;
+    }
+    .swiper-pagination,
+    .swiper-pagination-bullets {
+        bottom: 0;
+        left: -.05rem;
+    }
+}
+.sy-tuw {
+    @include aa(7.15rem,.4rem);
+    margin: 0 auto;
+    line-height: 0.4rem;
+    font-size: 0;
+    margin: {
+        bottom: 0.36rem;
+        top: 0.2rem;
+    };
+    span {
+        font-size: 0.25rem;
+        color: #000;
+        margin-right: 0.4rem;
+        img {
+            @include aa(.36rem,.36rem);
+            vertical-align: middle;
+            margin-right: 0.1rem;
+        }
+    }
+    span:nth-child(3) {
+        margin: 0;
+    }
+}
+.sy-hr {
+    @include aa(100%,.18rem);
+    background: #f4f4f4;
+}
+.sy-inp {
+    @include aa(5.86rem,3.6rem);
+    margin: 0.36rem auto;
+    font-size: 0;
+    p {
+        @include aa(100%,.7rem);
+        margin-bottom: 0.25rem !important;
+    }
+    input {
+        @include aa(5.76rem,100%);
+        padding-left: 0.1rem;
+        border: 0.01rem solid #eaeaea;
+        border-radius: 0.05rem;
+        font-size: 0.28rem;
+        margin: 0;
+    }
+    button {
+        @include aa(100%,.7rem);
+        border-radius: 0.05rem;
+        font-size: 0.36rem;
+        text-align: center;
+        line-height: 0.7rem;
+        background: #feb605;
+        color: white;
+        border: 0;
+    }
+}
+.sy-s1 {
+    @include aa(7.25rem,2.45rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .sy-s1-a {
+        @include aa(1.45rem,100%);
+        text-align: center;
+        font-size: 0.36rem;
+        dl {
+            @include aa(100%,2.1rem);
+            text-align: center;
+        }
+        img {
+            @include aa(1.4rem,1.4rem);
+            margin-bottom: 0.22rem;
+            font-size: 0;
+        }
+        p {
+            @include aa(1.2rem,.32rem);
+            font-size: 0.24rem;
+            background: #39c893;
+            color: white;
+            text-align: center;
+            line-height: 0.32rem;
+            margin: 0 auto;
+            border-radius: 0.05rem;
+        }
+    }
+}
+.sy-li {
+    @include aa(7.05rem,.67rem);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.28rem;
+    color: #39c893;
+    margin: 0.36rem auto;
+    li {
+        @include aa(50%,100%);
+        box-sizing: border-box;
+        border: 0.01rem solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            @include aa(.28rem,.28rem);
+            vertical-align: middle;
+        }
+    }
+}
+.sy-s2 {
+    @include aa(7.16rem,10.15rem);
+    margin: 0 auto;
+    .sy-s2-a {
+        @include aa(100%,5.06rem);
+        position: relative;
+        img {
+            @include aa(100%,100%)
+        }
+        .sy-s2-zi {
+            @include aa(.7rem,.42rem);
+            background: #000;
+            opacity: 0.5;
+            color: white;
+            font-size: 0.25rem;
+            text-align: center;
+            line-height: 0.42rem;
+            position: absolute;
+            bottom: 0.1rem;
+            right: 0.15rem;
+        }
+    }
+    .sy-s2-b {
+        @include aa(100%,5.07rem);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 0.08rem;
+        .sy-sw-b1 {
+            @include aa(3.54rem,2.5rem);
+            position: relative;
+            img {
+                @include aa(100%,100%)
+            }
+            .sy-s2-zi {
+                @include aa(.7rem,.42rem);
+                background: #000;
+                opacity: 0.5;
+                color: white;
+                font-size: 0.25rem;
+                text-align: center;
+                line-height: 0.42rem;
+                position: absolute;
+                bottom: 0.1rem;
+                right: 0.15rem;
+            }
+        }
+    }
+}
+.sy-s3 {
+    @include aa(7.16rem,6rem);
+    margin: 0 auto;
+    dl {
+        @include aa(100%,100%);
+        img {
+            @include aa(100%,5.34rem)
+        }
+        dd {
+            font-size: 0.28rem;
+            margin-top: 0.25rem;
+            span {
+                color: white;
+                background: #3ac994;
+                border-radius: 0.05rem;
+            }
+        }
+    }
+}
+.sy-s4-1 {
+    @include aa(7.1rem,1.75rem);
+    margin: 0 auto 0.32rem;
+    display: flex;
+    border-bottom: 0.01rem solid gray;
+    >img {
+        @include aa(1.9rem,1.45rem);
+        margin-right: 0.22rem;
+    }
+    dl {
+        @include aa(4.9rem,1.45rem);
+        position: relative;
+        dt {
+            font-size: 0.36rem;
+            line-height: 0.5rem;
+        }
+        dd {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            span {
+                font-size: 0.28rem;
+                color: #999;
+                img {
+                    @include aa(.28rem,.28rem)
+                }
+            }
+            span:nth-child(1) {
+                margin-right: 0.75rem;
+            }
+        }
+    }
+}
+.sy-s5 {
+    @include aa(7rem,1.75rem);
+    margin: 0.36rem auto;
+    font-size: 0.28rem;
+    color: #333;
+    line-height: 0.45rem;
+    text-indent: 0.5rem;
+}
+.sy-gangG {
+    @include aa(100%,1.85rem);
+    img {
+        @include aa(100%,100%)
+    }
+}
+.sy-dw {
+    @include aa(.94rem,.94rem);
+    position: fixed;
+    right: 0.25rem;
+    bottom: 2.5rem;
+    img {
+        @include aa(100%,100%);
+        border-radius: 0.5rem;
+    }
+}
+
+.sy-s6{
+    @include aa(100%,1.3rem);
+    .sy-s6-a{
+        text-align: center;
+        @include aa(100%,.32rem);
+        font-size: .28px;
+        color: #333;
+        line-height: .32rem;
+        margin: 0.3rem 0;
+        img{
+            @include aa(.32rem,.32rem);
+            vertical-align: middle;
+            }
+    }
+    .sy-s6-b{
+        @include aa(100%,.3rem);
+        font-size: .28rem;
+        display: flex;
+        justify-content: space-between;
+        li{
+            @include aa(25%,100%);
+            text-align: center;
+            a{font-size: .28rem;}
+        }
+    }
+}
